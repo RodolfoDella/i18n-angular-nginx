@@ -1,0 +1,8 @@
+web:
+  image: nginx
+  container_name: nginx
+  volumes:
+    - ./default.conf:/etc/nginx/conf.d/default.conf
+    - ./i18n-angular:/usr/share/nginx/html/i18n-angular/
+  ports:
+    - "80:80"
