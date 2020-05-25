@@ -12,6 +12,7 @@ In this project, I share with you how to run an Nginx server and use it to redir
 2. make sure that you have installed the Docker and docker-compose;
 3. access the project directory;
 4. run the command `docker-compose up` or `docker-compose up -d` to run in detached mode;
-5. Enjoy!
+5. go to browser and type [http://localhost/i18n-angular/en/](http://localhost/i18n-angular/en/)
+6. It's done. Enjoy!
 
 > To stop the project running, use the command `docker-compose down`
